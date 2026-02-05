@@ -10,4 +10,4 @@ Modular, object-oriented package for data preparation, feature engineering, Baye
 - Architecture overview: `docs/01_ARCHITECTURE.md`
 - Naming convention (v1): `docs/02_NAMING_CONVENTION.md`
 - Dataset contract (v1): `docs/03_DATASET_CONTRACT.md`
-- Dataset mapping (V1): `docs/XX_DATASET_MAPPING.md`
+- Dataset mapping (V1): `docs/04_DATASET_MAPPING.md`
