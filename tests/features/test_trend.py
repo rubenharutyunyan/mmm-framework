@@ -1,6 +1,6 @@
 import pandas as pd
 
-from mmm.dataset.dataset import MMMDataSet
+from mmm.data.dataset import MMMDataSet
 from mmm.features.trend import TrendTransformer
 
 
