@@ -3,7 +3,7 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import Tuple
 
-from mmm.dataset.dataset import MMMDataSet
+from mmm.data.dataset import MMMDataSet
 from mmm.features.report import FeatureReport
 
 
