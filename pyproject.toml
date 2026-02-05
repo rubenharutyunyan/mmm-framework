@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mmm-framework"
+version = "0.0.0"
+description = "Bayesian Marketing Mix Modeling framework in Python."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "rubenharutyunyan" }]
+keywords = ["mmm", "marketing-mix-modeling", "pymc", "bayesian", "marketing"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/rubenharutyunyan/mmm-framework"
+Repository = "https://github.com/rubenharutyunyan/mmm-framework"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mmm"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
