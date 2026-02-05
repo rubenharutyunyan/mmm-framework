@@ -1,7 +1,7 @@
 # src/mmm/data/__init__.py
 
-from mmm.data.column_mapper import ColumnMapper, MappingReport
-from mmm.data.exceptions import (
+from .column_mapper import ColumnMapper, MappingReport
+from .exceptions import (
     ColumnMappingError,
     InvalidTargetColumnNameError,
     SourceColumnMissingError,
