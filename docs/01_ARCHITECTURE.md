@@ -29,7 +29,7 @@ It is the **source of truth** for module responsibilities, boundaries, and data 
 
 ## High-level data flow
 
-```
+```md
 Raw data
 ↓
 MMMDataSet (`data/`)
@@ -53,7 +53,7 @@ Each step produces validated, structured outputs that can be reused downstream.
 
 ## Package structure
 
-```
+```md
 src/mmm/
 ├── config/
 ├── data/
