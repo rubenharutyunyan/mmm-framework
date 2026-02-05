@@ -8,7 +8,7 @@ def _make_dataset(n: int = 5) -> MMMDataSet:
     df = pd.DataFrame(
         {
             "date": pd.date_range("2023-01-01", periods=n, freq="D"),
-            "y": range(n),
+            "target__sales": range(n),
         }
     )
     return MMMDataSet.from_dataframe(df)
