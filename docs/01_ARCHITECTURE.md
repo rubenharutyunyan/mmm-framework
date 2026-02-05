@@ -34,6 +34,8 @@ Raw data
 ↓
 MMMDataSet (`data/`)
 ↓
+ColumnMapper (mapping + optional normalization)
+↓
 Feature engineering (`features/`)
 ↓
 EDA & sanity checks (`eda/`)
@@ -90,6 +92,7 @@ Responsibilities:
 - `MMMDataSet` class
 - Dataset validation (dates, types, invariants)
 - Dataset slicing (time windows, subsets)
+- Column mapping layer (client -> naming v1) via `ColumnMapper`+ `MappingReport`
 
 Non-responsibilities:
 - No feature engineering
