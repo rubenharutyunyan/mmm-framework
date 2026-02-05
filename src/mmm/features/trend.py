@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import pandas as pd
 
-from mmm.dataset.dataset import MMMDataSet
+from mmm.data.dataset import MMMDataSet
 from mmm.features.base import BaseTransformer
 from mmm.features.report import FeatureReport, FeatureStepReport
 
