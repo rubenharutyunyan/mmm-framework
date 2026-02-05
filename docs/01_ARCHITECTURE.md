@@ -29,6 +29,7 @@ It is the **source of truth** for module responsibilities, boundaries, and data 
 
 ## High-level data flow
 
+```
 Raw data
 ↓
 MMMDataSet (`data/`)
@@ -44,6 +45,7 @@ Diagnostics (`diagnostics/`)
 Business results & decomposition (`results/`)
 ↓
 Response curves & optimization (`optimization/`)
+```
 
 Each step produces validated, structured outputs that can be reused downstream.
 
@@ -51,6 +53,7 @@ Each step produces validated, structured outputs that can be reused downstream.
 
 ## Package structure
 
+```
 src/mmm/
 ├── config/
 ├── data/
@@ -60,6 +63,7 @@ src/mmm/
 ├── diagnostics/
 ├── results/
 ├── optimization/
+```
 
 ---
 
