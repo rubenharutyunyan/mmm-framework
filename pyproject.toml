@@ -19,6 +19,7 @@ classifiers = [
 
 dependencies = [
   "pandas>=2.0",
+  "scikit-learn>=1.0",
 ]
 
 [project.urls]
